@@ -8,6 +8,61 @@
     <title>Etch a Sketch</title>
 </head>
 <body>
+    <div class="outer_container">
+        <div class="options">
+
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <h1>
+                            Options
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="color">Choose color:</label>
+                    </td>
+                    <td>
+                        <input type="color" id="color">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="Eraser">Eraser</button>
+                    </td>
+                    <td>
+                        <button id="rgb">RGB</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="Darken">Darken</button>
+                    </td>
+                    <td>
+                        <button id="Lighten">Lighten</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="range" class="range" min="8" max="64" value="16">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="output">16x16</div>
+                    </td>
+                    <td>
+                        <button id="newGrid">New Grid</button>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="container"></div>
+    </div>
+        
+    
     <script src="script.js"></script>
 </body>
 </html>
