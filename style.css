@@ -39,7 +39,7 @@ button {
     transition-duration: .8s;
 }
 
-.mouseover {
+button:hover {
     transform: scale(1.1);
 }
 

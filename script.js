@@ -26,14 +26,6 @@ for (const button of buttons) {
         button.classList.toggle("pressed");
     });
 
-    button.addEventListener("mouseenter", () => {
-        button.classList.add("mouseover");
-    });
-
-    button.addEventListener("mouseleave", () => {
-        button.classList.remove("mouseover");
-    });
-
 }
 
 newGrid.addEventListener("click", () => {
